@@ -1,7 +1,5 @@
-import React from "react";
 import MainSection from "./mainSection/MainSection";
 import SideBar from "./sideBar/SideBar";
-import NavBar from "./mainSection/NavBar";
 
 const LandingPage = () => {
   return (

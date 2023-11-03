@@ -9,12 +9,12 @@ interface Props {
 
 const Modal = ({ onClose }: Props) => {
   const handleUploadClick = () => {
-    const fileInput = document.querySelector(".fileInput");
+    const fileInput = document.querySelector(".fileInput") as HTMLElement;
     fileInput.click();
   };
 
-  const handleFileSelection = (event: { target: { files: any[]; }; }) => {
-    const selectedFile = event.target.files[0]; // Get the first selected file
+  const handleFileSelection = (event: React.ChangeEvent<HTMLInputElement>) => {
+    const selectedFile = event.target.files?.[0]; // Get the first selected file
     if (selectedFile) {
       // You can do further processing, such as uploading the file or displaying its details.
       console.log("Selected file:", selectedFile);
