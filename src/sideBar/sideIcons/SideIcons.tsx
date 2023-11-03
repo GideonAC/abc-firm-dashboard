@@ -1,4 +1,3 @@
-import React from "react";
 import home from "../../images/home.svg";
 import allFiles from "../../images/allFiles.svg";
 import saved from "../../images/saved.svg";

@@ -1,6 +1,4 @@
 import NavBar from "./NavBar";
-
-import React from "react";
 import User from "./User";
 import Panel from "./Panel";
 import Table from "./Table";

@@ -1,6 +1,5 @@
 import featuredIcon from "../images/featured-icon.svg";
 import profile from "../images/frame.svg";
-// import { BsSearch } from "react-icons/bs";
 
 const NavBar = () => {
   return (

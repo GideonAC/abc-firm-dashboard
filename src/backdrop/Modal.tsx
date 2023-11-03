@@ -1,4 +1,3 @@
-// src/components/Modal.js
 import upload from "../images/upload-cloud-02.svg";
 import close from "../images/close.svg";
 import "../App.css";

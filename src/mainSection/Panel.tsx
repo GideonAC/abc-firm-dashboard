@@ -1,4 +1,3 @@
-import React from "react";
 import uploaded from "../images/uploadedPanel.svg";
 import transcribed from "../images/transcribedPanel.svg";
 import saved from "../images/savedPanel.svg";

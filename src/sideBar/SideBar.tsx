@@ -1,4 +1,3 @@
-import React from "react";
 import SideIcons from "./sideIcons/SideIcons";
 
 import upgrade from "../images/upgrade.svg";

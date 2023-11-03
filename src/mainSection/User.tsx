@@ -1,4 +1,3 @@
-import React from "react";
 import { useState } from "react";
 import Backdrop from "../backdrop/Backdrop";
 import Modal from "../backdrop/Modal";
