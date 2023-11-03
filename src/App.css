@@ -1,0 +1,616 @@
+/* ========================= Global styles start here ============================= */
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+@font-face {
+  font-family: 'Gotham Pro';
+  src: url('../public/Gotham Pro Regular.ttf') format('truetype');
+}
+
+
+.landing-page{
+  display: flex;
+}
+
+.mainSection{
+ width: 80%;
+background: rgba(249, 250, 251, 1);
+
+}
+
+
+/* ========================= Global styles start here ============================= */
+
+
+
+
+
+/* ======================= Nav Bar components starts here ========================== */
+
+nav{
+  background: rgba(255, 255, 255, 1);
+  width: 80vw;
+  height: 55px;
+  padding-top: 20px;
+  padding: 0px, 36px, 0px, 36px;
+  border: 0px, 0px, 1px, 0px; 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  width: 1096px;
+  height: 140px;
+  top: 184px;
+  margin: auto;
+  gap: 16px;
+}
+
+
+.search{
+  padding-left: 36px;
+}
+
+.search input[type="text"]{
+border: none;
+width: 629px;
+height: 40px;
+gap: 40px;
+background: rgba(249, 250, 251, 1);
+font-size: 16px;
+color: #888;
+text-align: left;
+background-image: url("./images/search-icon-png-9965.png");
+background-size: contain;
+background-position-x: left;
+background-repeat: no-repeat;
+padding-left: 30px;
+margin-left : -39px;
+text-indent: 36px;
+border-radius: 10px;
+}
+
+
+.search input[type="text"]::placeholder{
+  padding-left: 36px;
+}
+
+.profile-pic{
+  padding: 0 15px;
+}
+
+/* ======================= Nav Bar components ends here ========================== */
+
+
+
+
+/* ======================= sidebar components starts here =================================== */
+
+.sideBar {
+  /* position: fixed; */
+  width: 20%;
+  height: 90vh; 
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.firm-name {
+  color: #0048AD;
+  font-family: "Gotham Pro", sans-serif; 
+  font-size: 0.7em;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0; 
+  text-align: left;
+  margin: 0;
+  padding-left: 15px;
+}
+
+.sidebar-middle {
+  width: 224px;
+  height: 332px;
+  padding: 0 8px; 
+  gap: 12px;
+}
+
+.side-items {
+  display: flex;
+  width: 224px;
+  align-items: center;
+}
+
+.side-icons{
+  padding-left: 15px;
+}
+
+.side-items:hover{
+  background: rgba(224, 237, 255, 1);
+}
+
+.side-name {
+  padding-left: 1.2em;
+}
+
+.upgrade-box{
+  text-align: center;
+  background: rgba(224, 237, 255, 1);
+  width: 196px;
+  height: 180px;
+  padding: 16px;
+  border-radius: 8px;
+  gap: 16px;
+}
+
+.upgrade-btn{
+  width: 192px;
+  height: 47px;
+  padding: 12px, 24px, 12px, 24px;
+  border-radius: 6px;
+  border: none;
+  gap: 10px;
+  background: rgba(0, 72, 173, 1);
+  color: white;
+}
+
+.upgrade-acc{
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+  text-align: center;
+}
+
+.unlimited{
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 17.4px;
+}
+
+/* ======================= sidebar component ends here =================================== */
+
+
+
+
+
+/* ======================= User component starts here =================================== */
+/* .user{
+  display: flex;
+  margin-top: 15px;
+  justify-content: space-between;
+  padding-left: 40px;
+} */
+
+.p-user{
+  padding: 0;
+  margin: 0;
+  /* //styleName: Heading/H5/Semibold; */
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.upload-text{
+  /* //styleName: Paragraph/Medium/Regular; */
+font-family: Inter;
+font-size: 16px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(71, 83, 103, 1);
+}
+
+/* .name{
+  height: 56px;
+} */
+
+.transcribe-btn{
+margin-top: 0;
+width: 163px;
+height: 55px;
+padding: 16px, 24px, 16px, 24px;
+border-radius: 6px;
+gap: 10px;
+background: rgba(0, 72, 173, 1);
+color: white;
+border: none;
+}
+
+.user{ 
+ position: relative;
+  margin: auto; 
+  width: 1096px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+
+.upload-text{
+  margin-top: 0;
+  
+}
+
+/* ======================= User component ends here =================================== */
+
+
+
+
+
+
+/* ======================= Panel component starts here =================================== */
+.panel{
+  display: flex;
+  justify-content: space-between;
+  width: 1096px;
+  height: 140px;
+  top: 184px;
+  margin: auto;
+  gap: 16px;
+
+}
+
+.panel-box{
+  width: 354.67px;
+  height: 140px;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px;
+  gap: 16px;
+  background-color: white;
+  border: 1px solid rgba(228, 231, 236, 1)
+}
+
+.numbers{
+/* styleName: Heading/H6/Semibold; */
+font-size: 20px;
+font-weight: 600;
+line-height: 24px;
+letter-spacing: -0.02em;
+text-align: left;
+width: 322.67px;
+height: 24px;
+color: rgba(52, 64, 84, 1);
+}
+
+.panel-text{
+/* styleName: Paragraph/Small/Regular; */
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+width: 322.67px;
+height: 20px;
+color: rgba(71, 83, 103, 1);
+}
+
+
+.panel-img{
+width: 40px;
+height: 40px;
+padding: 10px, 9.67px, 10px, 10.33px;
+border-radius: 20px;
+border: 1px;
+}
+
+/* ======================= Panel component ends here =================================== */
+
+
+
+
+
+/* ======================= Table component starts here =================================== */
+.table{
+width: 1060px;
+/* height: 524px; */
+/* margin-top: 70px; */
+left: 36px; 
+padding: 24px; 
+border-radius: 12px; 
+font-size: 14px;
+font-weight: 200;
+/* border: 1px;  */
+gap: 24px;
+background-color: white;
+border: 1px solid rgba(228, 231, 236, 1);
+  /* width: 1096px;
+  height: 140px;
+  top: 184px; */
+  margin: 70px auto 0;
+}
+
+.recent{
+  border-bottom: 1px solid rgba(228, 231, 236, 1);
+}
+
+.recent-files{
+font-size: 18px;
+font-weight: 600;
+line-height: 22px;
+letter-spacing: -0.02em;
+text-align: left;
+}
+
+.list{
+width: 1048px;
+height: 440px;
+gap: 8px;
+}
+
+td{
+width: 158px;
+height: 48px;
+padding: 14px, 16px, 14px, 16px;
+gap: 10px;
+}
+
+th{
+  text-align: left;
+}
+
+th, td{
+  border-bottom: 1px solid rgba(228, 231, 236, 1);
+}
+
+tr:hover{
+    background: rgba(224, 237, 255, 1);
+}
+
+.check{
+  border-radius: 50%;
+  border-color: red;
+}
+
+/* ======================= Table component ends here =================================== */
+
+
+
+
+/* ======================= floating component starts here =================================== */
+
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 10;
+} 
+
+.modal {
+  z-index: 20;
+}
+
+.floating {
+  position: absolute;
+  top: 10;
+  left: 0;
+  /* transform: translate(-50%, -50%); */
+  background-color: white;
+  width: 800px;
+  
+  padding: 40px 50px 10px;
+  border-radius: 16px;
+  /* gap: 48px; */
+}
+
+
+
+.item-div{
+  width: 80%;
+  margin : auto;
+  padding-left: -64px;
+  
+}
+
+.uplaodButton{
+font-size: 14px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(0, 72, 173, 1);
+text-decoration: none;
+}
+
+.upload-text{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(71, 83, 103, 1);
+}
+
+.float-width{
+  width : 100%;
+  margin : 15px auto;
+}
+
+.fileList{
+  margin-bottom : 40px;
+}
+
+.fileList p{
+font-size: 12px;
+font-weight: 400;
+line-height: 17px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.text-float{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.trans-lang{
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+}
+
+#myDropdown{
+width: 700px;
+height: 52px;
+padding: 16px;
+border-radius: 8px;
+border: 1px;
+justify-items: space-between;
+color: rgba(208, 213, 221, 1);
+border: 1px solid rgba(208, 213, 221, 1);
+
+}
+
+.drop-area{
+width: 700px;
+height: 200px;
+padding: 40px, 16px, 40px, 16px;
+border-radius: 8px;
+border: 1px;
+color: (0deg, #D0D5DD, #D0D5DD);
+border: 1px solid rgba(208, 213, 221, 1);
+text-align: center
+}
+
+.trans-float{
+font-size: 24px;
+font-weight: 600;
+line-height: 35px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.circle {
+  width: 40px; 
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden; 
+  background-color: rgba(224, 237, 255, 1);
+  margin : 40px auto 20px;
+}
+
+.circle img[src] {
+  width: 25px;
+  height: auto;
+  text-align: center;
+  padding: 10px;
+  display: block; 
+}
+
+.import-link{
+font-size: 14px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(18, 18, 18, 1);
+}
+
+.import-link-box{
+  height: 52px;
+  width: 100%;
+  border-radius: 8px;
+  padding-left: 20px;
+  padding-right: 36px;
+}
+
+.import-link-box::placeholder{
+font-size: 14px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+color: rgba(152, 162, 179, 1);
+padding-left: 15px;
+}
+
+.check label{
+font-size: 16px;
+font-weight: 500;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(16, 25, 40, 1);
+}
+
+.speakerIdentification{
+width: 20px;
+height: 12px;
+line-height: 5px;
+}
+
+
+.trans-btn{
+width: 700px;
+height: 55px;
+padding: 16px, 24px, 16px, 24px;
+border-radius: 6px;
+gap: 10px;
+background: rgba(208, 213, 221, 1);
+
+border: none;
+}
+
+
+.trans-btn-text{
+font-size: 16px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+color: white;
+border: none;
+}
+
+/* ======================= floating component ends here =================================== */
+
+
+@media (max-width: 768px){
+  /* nav{
+  width: 150px;
+  } */
+  .panel{
+    flex-direction: column;
+  }
+
+  .table{
+    overflow: scroll;
+  } 
+
+  /* .user{
+    flex-direction: column;
+  }
+
+  .sideBar {
+    display: none;
+  } */
+.mainSection{
+  flex-direction: column;
+}
+  
+}
